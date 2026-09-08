@@ -1,30 +1,29 @@
-This is a Kotlin Multiplatform project targeting Android, Desktop (JVM).
+# Tugas Kotlin Multiplatform
 
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
-    folder is the appropriate location.
+## Identitas
+- **Nama**: Afifa Aulia
+- **NIM**: 123140073
 
-### Running the apps
+## Deskripsi Proyek
+Proyek tugas Minggu 1 mata kuliah Pengembangan Aplikasi Mobile. Aplikasi dibuat menggunakan **Kotlin Multiplatform (KMP)** dengan **Compose Multiplatform**, sehingga satu basis kode UI (di folder `shared`) dapat dijalankan di berbagai platform (Android dan Desktop).
 
-Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and options:
+Aplikasi menampilkan:
+- Nama pengguna
+- NIM pengguna
+- Nama platform yang sedang digunakan untuk menjalankan aplikasi (memanfaatkan mekanisme `expect`/`actual` di Kotlin Multiplatform)
 
-- Android app: `./gradlew :androidApp:assembleDebug`
-- Desktop app:
-  - Hot reload: `./gradlew :desktopApp:hotRun --auto`
-  - Standard run: `./gradlew :desktopApp:run`
+## Struktur Proyek
+- `androidApp` — modul aplikasi Android (entry point: `MainActivity.kt`)
+- `desktopApp` — modul aplikasi Desktop
+- `shared` — kode UI (Compose Multiplatform) dan logika yang dipakai bersama oleh Android & Desktop
 
-### Running tests
+## Platform yang Berhasil Dijalankan
+- Desktop (JVM)
 
-Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
+## Screenshot Hasil Run
+![Screenshot Aplikasi](Screenshot hasil.png)
 
-- Android tests: `./gradlew :shared:testAndroidHostTest`
-- Desktop tests: `./gradlew :shared:jvmTest`
-
----
-
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## Teknologi yang Digunakan
+- Kotlin Multiplatform
+- Jetpack Compose / Compose Multiplatform
+- Android Studio (Quail 4 | 2026.1.4)
