@@ -21,7 +21,7 @@ Aplikasi menampilkan:
 - Desktop (JVM)
 
 ## Screenshot Hasil Run
-![Screenshot Aplikasi](Screenshot hasil.png)
+![Screenshot Aplikasi](Screenshot.png)
 
 ## Teknologi yang Digunakan
 - Kotlin Multiplatform
