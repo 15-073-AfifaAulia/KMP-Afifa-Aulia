@@ -1,7 +1,7 @@
 # Tugas Kotlin Multiplatform
 
 ## Identitas
-- **Nama**: Afifa Aulia
+- **Nama**: Afifa AuliaS
 - **NIM**: 123140073
 
 ## Deskripsi Proyek
@@ -21,7 +21,7 @@ Aplikasi menampilkan:
 - Desktop (JVM)
 
 ## Screenshot Hasil Run
-![Screenshot Aplikasi](Screenshot.png)
+![Screenshot Aplikasi](screenshot.png)
 
 ## Teknologi yang Digunakan
 - Kotlin Multiplatform
