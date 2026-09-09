@@ -18,7 +18,7 @@ Aplikasi menampilkan:
 - `shared` — kode UI (Compose Multiplatform) dan logika yang dipakai bersama oleh Android & Desktop
 
 ## Platform yang Berhasil Dijalankan
-- Desktop (JVM)
+- Android 36
 
 ## Screenshot Hasil Run
 ![Screenshot Aplikasi](screenshot.png)
